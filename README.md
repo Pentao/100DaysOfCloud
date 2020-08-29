@@ -2,7 +2,8 @@
   <img src="banner.png">
 </p>
 
-## The Challenge
+# The Challenge
+
 1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
 2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
 3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
@@ -10,17 +11,13 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
-
 ## Humberto's Cloud Journey
 
 Hola, my name is Humberto.
 
 I'm a systems engineer with interest in coud thechnologies, specifically Azure and looking to get involved in the community and learn as much as I can.
 
-Currenlty I am preparing for AZ-400
+Currently I am preparing for AZ-400 mainly through [CloudSkills](https://cloudskills.io/) and I will document my progress and any other resources I use  here.
 
 - [@hujorquera](https://twitter.com/hujorquera)
 - [LinkedIn](https://www.linkedin.com/in/humbertojorquera)
