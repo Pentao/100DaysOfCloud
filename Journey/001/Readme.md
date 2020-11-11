@@ -1,11 +1,33 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
+![Screenshot](banners/Day-001-RBAC.png)
+# Managing Role-Based Access Control on Azure
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+✍️ RBAC allows the segregation of duties within the organization.
+
+- Team A in charge of managing VMs
+- Team B in charge of managing costs
+- Team C in charge of security
+
+Role assignments can be assigned at the management group level up to the resource.
+
+Elements od a Role Assignment
+
+- Security Principal: a user, group, service principal or managed identity requiring access to Azure Resources.
+- Role Definition: List of allowed or denied actions, the 3 most common are:
+    - Owner: Full acccess to resources and ca delegate access to others.
+    - Contributor: Full access, unable to delegate control. 
+    - Reader: Can only view resources in Azure. 
+    
+        NOTE: The "Global Administrator" role in Azure AD can elevate access to the "User access administrator" role at the root scope (/) in order to Regain access to an Azure subscription or management group when a user has lost access, see more [here](https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin). 
+- Scope: can be applied at the:
+    - Management Group level
+    - Subscription/Resource Group Level
+    - Individual Resources.
+
+RBAC can be viewed, added, or removed, from a blade called "Access Control (IAM).
+
+Notes taken from: [Managing Azure Role-Based Access Control (RBAC) - Azure Training](https://www.youtube.com/watch?v=WBj_zjVHMDw&ab_channel=MicrosoftIgnite)
 
 ## Prerequisite
 
